@@ -47,3 +47,12 @@ git push --force
 git pull --rebase false
 git pull
 git add .
+git status
+git add freeCodeCamp/test/cwd freeCodeCamp/test/.next_command
+git commit -m "Actualizo archivos de prueba"
+git branch --set-upstream-to=origin/main main
+git pull origin main --rebase false
+git push origin main
+git remote -v
+git remote set-url origin https://github.com/CD1974/learn-sql-by-building-a-student-database-part-1
+git remote -v
