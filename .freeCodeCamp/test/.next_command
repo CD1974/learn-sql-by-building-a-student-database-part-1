@@ -9,3 +9,5 @@ ls --color=auto
 pg_dump --help
 pg_dump --clean --create --inserts --username=freecodecamp students > students.sql
 git clone https://github.com/CD1974/learn-sql-by-building-a-student-database-part-1
+git pull origin main
+git pull --rebase
