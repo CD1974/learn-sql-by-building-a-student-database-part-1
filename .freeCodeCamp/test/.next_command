@@ -56,3 +56,6 @@ git push origin main
 git remote -v
 git remote set-url origin https://github.com/CD1974/learn-sql-by-building-a-student-database-part-1
 git remote -v
+git pull --rebase
+git checkout -b respaldo-antes-del-pull
+git add .
