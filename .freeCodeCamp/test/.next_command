@@ -59,3 +59,6 @@ git remote -v
 git pull --rebase
 git checkout -b respaldo-antes-del-pull
 git add .
+git commit -m "Backup temporal antes de pull"
+git checkout main
+git add .freeCodeCamp/test/.cwd .freeCodeCamp/test/.next_command
